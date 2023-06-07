@@ -11,6 +11,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
 }
 
 header {
@@ -70,13 +71,11 @@ footer {
   background-color: #dbdbdb;
   text-align: center;
   padding: 20px;
-  position: sticky;
-  bottom: 0;
   width: 100%;
-  /* margin-top: 20px; */
 }
 
 footer p {
   font-weight: 600;
   font-size: 14px;
+  margin-top: 20px;
 }
