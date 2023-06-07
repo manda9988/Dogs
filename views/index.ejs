@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dogs</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Dogs</h1>
+    </header>
+
+    <main>
+      <section id="dog-list">
+        <!-- Les chiens seront affichés ici -->
+        <% dogs.forEach(function(dog) { %>
+        <div class="dog-card">
+          <h2><%= dog.name %></h2>
+          <p><%= dog.breed %></p>
+          <p><%= dog.age %> <%= dog.age === 1 ? 'an' : 'ans' %></p>
+          <img src="<%= dog.imageUrl %>" alt="<%= dog.name %>" />
+        </div>
+        <% }) %>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2023 spaDogs</p>
+    </footer>
+  </body>
+</html>

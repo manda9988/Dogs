@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #dbdbdb;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 40px;
+}
+
+main {
+  margin: 20px;
+}
+
+#dog-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.dog-card {
+  width: 200px;
+  height: 220px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dog-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5%;
+  margin-bottom: 10px;
+}
+
+.dog-card h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.dog-card p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #dbdbdb;
+  text-align: center;
+  padding: 20px;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  /* margin-top: 20px; */
+}
+
+footer p {
+  font-weight: 600;
+  font-size: 14px;
+}
