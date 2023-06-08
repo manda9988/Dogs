@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Max",
+    "breed": "Labrador",
+    "age": 3,
+    "imageUrl": "/img/img1.jpg"
+  },
+  {
+    "name": "Bella",
+    "breed": "German Shepherd",
+    "age": 2,
+    "imageUrl": "/img/img2.jpg"
+  },
+  {
+    "name": "Charlie",
+    "breed": "Golden Retriever",
+    "age": 4,
+    "imageUrl": "/img/img3.jpg"
+  },
+  { "name": "Lucy", "breed": "Bulldog", "age": 5, "imageUrl": "/img/img4.jpg" },
+  {
+    "name": "Cooper",
+    "breed": "Poodle",
+    "age": 1,
+    "imageUrl": "/img/img5.jpg"
+  },
+  { "name": "Luna", "breed": "Beagle", "age": 3, "imageUrl": "/img/img6.jpg" },
+  {
+    "name": "Max",
+    "breed": "Siberian Husky",
+    "age": 2,
+    "imageUrl": "/img/img7.jpg"
+  },
+  { "name": "Daisy", "breed": "Boxer", "age": 4, "imageUrl": "/img/img8.jpg" },
+  {
+    "name": "Rocky",
+    "breed": "Rottweiler",
+    "age": 6,
+    "imageUrl": "/img/img9.jpg"
+  },
+  {
+    "name": "Sadie",
+    "breed": "Great Dane",
+    "age": 2,
+    "imageUrl": "/img/img10.jpg"
+  },
+  {
+    "name": "Buddy",
+    "breed": "Bulldog",
+    "age": 4,
+    "imageUrl": "/img/img11.jpg"
+  },
+  {
+    "name": "Molly",
+    "breed": "French Bulldog",
+    "age": 3,
+    "imageUrl": "/img/img12.jpg"
+  },
+  {
+    "name": "Tucker",
+    "breed": "Corgi",
+    "age": 2,
+    "imageUrl": "/img/img13.jpg"
+  },
+  {
+    "name": "Lola",
+    "breed": "Shih Tzu",
+    "age": 5,
+    "imageUrl": "/img/img14.jpg"
+  },
+  {
+    "name": "Bear",
+    "breed": "Bernese Mountain Dog",
+    "age": 3,
+    "imageUrl": "/img/img15.jpg"
+  },
+  {
+    "name": "Zoe",
+    "breed": "Pomeranian",
+    "age": 2,
+    "imageUrl": "/img/img16.jpg"
+  }
+]
