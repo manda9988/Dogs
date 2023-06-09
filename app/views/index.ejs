@@ -1,5 +1,3 @@
-<!-- index.ejs -->
-
 <!DOCTYPE html>
 <html lang="fr">
   <%- include('partials/head') %>
@@ -13,18 +11,17 @@
       <section id="dog-list">
         <!-- Les chiens seront affichés ici -->
         <% locals.dogs.forEach(function(dog) { %>
-        <div class="dog-card">
-          <h2><%= dog.name %></h2>
-          <!-- <p><%= dog.breed %></p>
-          <p><%= dog.age %> <%= dog.age === 1 ? 'an' : 'ans' %></p> -->
-          <img src="<%= dog.imageUrl %>" alt="<%= dog.name %>" />
-        </div>
+        <a href="/dogs/<%= dog.id %>" class="dog-card">
+          <div>
+            <h2><%= dog.name %></h2>
+            <!-- Ajoutez d'autres informations sur le chien ici -->
+            <img src="<%= dog.imageUrl %>" alt="<%= dog.name %>" />
+          </div>
+        </a>
         <% }) %>
       </section>
     </main>
 
-    <footer>
-      <p>© 2023 spaDogs</p>
-    </footer>
+    <%- include('partials/footer') %>
   </body>
 </html>

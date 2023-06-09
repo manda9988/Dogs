@@ -1,5 +1,3 @@
-// router.js
-
 const dogController = require("./controllers/dogController");
 const mainController = require("./controllers/mainController");
 
@@ -10,6 +8,6 @@ const router = express.Router();
 router.get("/", mainController.homePage);
 
 // Dogs
-router.get("/dogs", dogController.all);
+router.get("/dogs/:id", dogController.dogDetails);
 
 module.exports = router;

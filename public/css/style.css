@@ -45,7 +45,7 @@ main {
 .dog-card {
   width: 175px;
   height: 175px;
-  background-color: var(--color2);
+  background: var(--color2);
   padding: 20px;
   text-align: center;
   border-radius: 8px;

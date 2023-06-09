@@ -1,12 +1,17 @@
-// controllers/dogController.js
-
 const express = require("express");
 const router = express.Router();
+const dogsData = require("../data/dogs.json");
 
 const controller = {
-  all: (req, res) => {
-    console.log("voici mes chiens");
-    res.send("ici la page all dogs");
+  dogDetails: (req, res) => {
+    const { id } = req.params;
+    const dog = dogsData.find((dog) => dog.id.toString() === id);
+
+    if (dog) {
+      res.render("dog", { dog });
+    } else {
+      res.status(404).send("Chien non trouvé");
+    }
   },
 };
 

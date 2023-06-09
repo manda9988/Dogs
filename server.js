@@ -1,5 +1,3 @@
-// server.js
-
 const express = require("express");
 const app = express();
 const db = require("./app/services/database");
@@ -28,11 +26,6 @@ db.authenticate()
   .catch((err) => {
     console.error("Unable to connect to the database:", err);
   });
-
-// // Middleware pour servir les fichiers statiques
-// app.use((req, res) => {
-//   console.log("je suis un middleware appelé tout le temps");
-// });
 
 // Utilisation du router
 app.use(router);

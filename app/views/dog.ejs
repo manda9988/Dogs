@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <%- include('partials/head') %>
+
+  <body>
+    <header>
+      <h1><%= dog.name %></h1>
+    </header>
+
+    <main>
+      <section id="dog-details">
+        <div class="dog-card">
+          <h2><%= dog.name %></h2>
+          <p>Race: <%= dog.breed %></p>
+          <p>Âge: <%= dog.age %> <%= dog.age === 1 ? 'an' : 'ans' %></p>
+          <!-- Ajoutez d'autres informations sur le chien ici -->
+          <img src="<%= dog.imageUrl %>" alt="<%= dog.name %>" />
+        </div>
+      </section>
+    </main>
+
+    <%- include('partials/footer') %>
+  </body>
+</html>
